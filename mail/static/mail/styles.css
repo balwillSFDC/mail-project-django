@@ -1,0 +1,109 @@
+textarea {
+    min-height: 400px;
+}
+
+.inbox-item {
+    border-style: outset;
+    background-color: whitesmoke;
+    margin-bottom: 1em;
+}
+
+.read {
+    background-color: lightgray;
+}
+
+.inbox-item:hover {
+    background-color: blue;
+    color:white;
+}
+
+#emails-view, #email-view {
+    background-color: lightgray;
+    padding: 1em;
+    min-height: 50em;
+}
+
+#emails-view {
+    border-style: ridge;
+    border-width: 10px;
+}
+
+h3 {
+    background-color: whitesmoke;
+    padding: .5em; 
+    border-style: outset;
+    text-align: center;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightseagreen;
+}
+
+.form-control {
+    border-style: outset;
+}
+
+h2 {
+    color: white;
+}
+
+.btn-sm {
+    border-radius: 0;
+    border-style: outset;
+    background-color: lightgray; 
+    color: black;
+    border-color: black
+}
+
+.no-items {
+    text-align: center;
+}
+
+
+.close-button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.label {
+    border-style: inset;
+}
+
+.value {
+    border-style: inset;
+    background-color: whitesmoke;
+}
+
+#email-subject {
+    background-color: whitesmoke;
+    margin-bottom: 1em;
+    border-style: double;
+}
+
+#body-value {
+    margin-top: 1em;
+    padding:1em;
+    min-height:500px;
+}
+
+.body { 
+    white-space: pre-line;
+}
+
+#reply-button, #submit-button {
+    width: 100%;
+    margin-top: 1em;
+    border: 6px outset; 
+    background-color: lightgray;
+    color:black;
+}
+
+.read-button {
+    border: 2px outset; 
+}
